@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" href="favicon"/>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>Craq'em - Login</title>
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container" align="center">
+        <br/>
+        <h1>Welcome to Craq'em<br/>Round 2</h1><br/>
+        <h2>Login</h2><br/>
+
+
+        <form action="/login" method="post">
+
+            <div class="form-group">
+                <label class="h4 font-weight-normal" for="user-name">Registered Name 1</label>
+                <input type="text" class="form-control col-sm-4" placeholder="Type registered name" name="username1" required/>
+                <br/>
+            </div>
+
+            <div class="form-group">
+                <label class="h4 font-weight-normal" for="user-name">Registered Name 2</label>
+                <input type="text" class="form-control col-sm-4" placeholder="Type registered name" name="username2" required/>
+                <br/>
+            </div>
+
+            <div class="form-group">
+                <label class="h4 font-weight-normal" for="id_user">Passcode 1</label>
+                <input type="password" class="form-control col-sm-4"  placeholder="Type your passcode 1" name="id1" required/>
+                <br/>
+            </div>
+
+            <div class="form-group">
+                <label class="h4 font-weight-normal" for="id_pass">Passcode 2</label>
+                <input type="password" class="form-control col-sm-4"  placeholder="Type your passcode 2" name="id2" required/>
+                <br/>
+                <br/>
+            </div>
+
+            <div class="form-group">
+                <button type="submit" class="btn btn-outline-primary col-sm-4">Login</button>
+            </div>
+
+        </form>
+        </div>
+    </body>
+</html>
